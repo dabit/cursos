@@ -1,11 +1,27 @@
 # Sesión 2
 
+## Algunos operadores booleanos
+
+Los operadores booleanos son todos aquellos cuyo resultado solo puede ser
+true o false.
+
+ej1.rb:
+
+    puts (6 > 2)
+    puts (3 < 1)
+    puts (4 == 4)
+    puts (7 != 7)
+
+### Temas a explicar:
+
+* El operador == y, por qué son dos?
+
 ## Estructuras de Control
 
 Como en todos los demás lenguajes, en ruby existen ciertas palabras para
 controlar el flujo de los programas.
 
-ej6.rb:
+ej2.rb:
 
     if (10 < 6)
       puts "La verdad"
@@ -51,7 +67,7 @@ ej6.rb:
 Un arreglo es una colección de objetos. Para declarar un arreglo, simplemente
 hay que declararlo entre corchetes `[`.
 
-ej7.rb:
+ej3.rb:
 
     numeros = [1, 2, 3, 4]
     puts numeros
@@ -65,7 +81,7 @@ ej7.rb:
 
 Hay varias operaciones que se pueden hacer con arreglos:
 
-ej8.rb:
+ej4.rb:
 
     numeros = [1, 2, 3, 4]
     numeros << 5
@@ -99,7 +115,7 @@ ej8.rb:
 
 Una funcion es un pequeño pedazo de código que puede ser llamado varias veces.
 
-ej9.rb
+ej5.rb
 
     def pintar_una_linea
       puts "========"
