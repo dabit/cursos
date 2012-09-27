@@ -1,6 +1,6 @@
 # Sesión 1
 
-## Comenzando
+## Hola mundo
 
 Crear el archivo ej1.rb con el siguiente contenido:
 
