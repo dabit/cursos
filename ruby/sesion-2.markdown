@@ -77,6 +77,16 @@ ej3.rb:
 
     puts (1..10).to_a
 
+    puts numeros[2]
+    puts palabras[1]
+    puts numeros[-1]
+
+### Temas para explicar:
+
+* Acceso a los elementos
+* Acceso a los elementos con un negativo
+* Acceso a los elementos con un rango
+
 ## Operaciones con arreglos
 
 Hay varias operaciones que se pueden hacer con arreglos:
