@@ -5,7 +5,7 @@
 Las funciones pueden recibir parametros. Valores que se asignan en una variable
 que solo es válida en el contexto de la función.
 
-ej10:
+ej1:
 
     def suma(a, b, c)
       return a + b + c
