@@ -1,0 +1,2 @@
+proceso = :normal
+configuracion = :estandar

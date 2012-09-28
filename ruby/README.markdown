@@ -19,3 +19,9 @@ Programa del curso basico de Ruby
 * Operaciones con arreglos
 * Funciones
 * Parametros en las funciones
+
+## Sesión 3
+
+* Hashes
+* Enumerables
+
