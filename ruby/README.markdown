@@ -18,7 +18,4 @@ Programa del curso basico de Ruby
 * Arreglos
 * Operaciones con arreglos
 * Funciones
-
-## Sesión 3
-
 * Parametros en las funciones
