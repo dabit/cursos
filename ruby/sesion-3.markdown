@@ -65,10 +65,59 @@ ej3:
     end
 
 ## Collect
+Collect nos permite crear arreglos o colecciones con los elementos de otro Enumerable.
+
+ej4.rb:
+
+    require 'ap'
+    traducciones = { :rojo => 'red', :azul => 'blue', :amarillo => 'yellow' }
+
+    colores =  traducciones.collect do |llave, valor|
+      valor
+    end
+
+    ap colores
 
 ## Select
+Select nos permite hacer una seleccion de los elementos de un Enumerable devolviendo
+solo aquellos que cumplen con el criterio especificado.
+
+ej5.rb:
+
+    require 'ap'
+    traducciones = { :rojo => 'red', :azul => 'blue', :amarillo => 'yellow' }
+
+    colores = traducciones.select do |llave, valor|
+      valor.size > 3
+    end
+
+    ap colores
 
 ## Sort
+Sort ordena los elementos de acuerdo al criterio especificado:
+
+    require 'ap'
+
+    numeros = [50, 3, 52, 72, 23, 1]
+    ap numeros.sort
+
+    traducciones = { :rojo => 'red', :azul => 'blue', :amarillo => 'yellow' }
+    ap traducciones.sort
+
+    ap traducciones.sort {|a,b| a[1] <=> b[1]}
 
 ## Inject
+Inject se utiliza para generar calculos acumulados con los elementos de un enumerable:
 
+    require 'ap'
+
+    poblacion = { :estados_unidos => 100, :mexico => 20, :brazil => 200 }
+
+    puts poblacion.inject(0) {|memoria, elemento| memoria = memoria + elemento[1] }
+
+    total = 0
+    poblacion.each do |p|
+      total += p[1]
+    end
+
+    ap total
