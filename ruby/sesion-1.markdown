@@ -110,4 +110,11 @@ ej5.rb:
 * Cadenas de comillas sencillas
 * Documentos
 
+# Tarea
+
+* Se puede interpolar en documentos? Demuéstralo con un ejemplo.
+* Escribe un reporte financiero de las ganancias y los costos de operacion de
+  una empresa utilizando todo lo que aprendiste.
+* Usa tu imaginación. No importa el formato ni el contenido, lo que importa
+  es que practiques lo que aprendiste hoy.
 
