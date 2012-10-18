@@ -199,3 +199,10 @@ ej6:
 
 * return implicito al final de la función
 * Parametros opcionales
+
+# Tarea
+
+* Crea un programa que calcule y muestre el promedio
+  de los elementos de dos arreglos distintos.
+* Solo utilizar lo que has aprendido en este curso
+  hasta hoy.
